@@ -34,7 +34,7 @@ module.exports = {
       destructuring: 'all',
     },
   ],
-  'space-before-function-paren': ['error', 'never'],
+  'space-before-function-paren': 'off',
   quotes: [
     'error',
     'single',
