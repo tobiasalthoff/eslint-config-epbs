@@ -6,7 +6,7 @@
 
 ```zsh
   # Requires npm 5+
-  $ npx install-peerdeps --dev eslint-config-epbs
+  $ npx install-peerdeps --dev @tobiasalthoff/eslint-config-epbs
 ```
 
 2. Extend the config within your `.eslintrc`
