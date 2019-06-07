@@ -9,9 +9,9 @@
   $ npx install-peerdeps --dev eslint-config-epbs
 ```
 
-2. Add the config to your `.eslintrc``
+2. Add the config to your `.eslintrc`
 
-```json
+```
 {
   "extends": [
     "epbs",
