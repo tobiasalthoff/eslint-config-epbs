@@ -1,5 +1,7 @@
 # Eslint & Prettier Base Setup (EPBS)
 
+[![npm version](https://badge.fury.io/js/%40tobiasalthoff%2Feslint-config-epbs.svg)](https://badge.fury.io/js/%40tobiasalthoff%2Feslint-config-epbs)
+
 ## Getting started
 
 1. Install everything with
