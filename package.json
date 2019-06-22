@@ -18,9 +18,11 @@
   "keywords": [
     "eslint",
     "prettier",
-    "config"
+    "config",
+    "javascript",
+    "lint"
   ],
-  "author": "Tobias Althoff",
+  "author": "Tobias Althoff <dev@tobiasalthoff.de>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tobiasalthoff/eslint-config-epbs/issues"
