@@ -2,21 +2,44 @@
 
 [![npm version](https://badge.fury.io/js/%40tobiasalthoff%2Feslint-config-epbs.svg)](https://badge.fury.io/js/%40tobiasalthoff%2Feslint-config-epbs)
 
-## Getting started
+## Installation
 
-1. Install everything with
+### Local / Per project
 
-```zsh
-# Requires npm 5+
-$ npx install-peerdeps --dev @tobiasalthoff/eslint-config-epbs
+1. Navigate to your project and install `@tobiasalthoff/eslint-config-epbs`:
+
+```shell
+npx install-peerdeps --dev @tobiasalthoff/eslint-config-epbs
 ```
 
-2. Extend the config within your `.eslintrc`
+2. Create an `.eslintrc` file in your project root.
 
-```
+3. The file should look like this:
+
+```json
 {
   "extends": [
-    "epbs",
+    "@tobiasalthoff/eslint-config-epbs",
+  ],
+}
+```
+
+### Global
+
+1. Install `@tobiasalthoff/eslint-config-epbs` globally:
+
+```
+npx install-peerdeps --global @tobiasalthoff/eslint-config-epbs
+```
+
+2. Create an `.eslintrc` file in your home directory. On Mac this will be `~/.eslintrc` and on Windows this will be `C:\Users\{username}\.eslintrc`
+
+3. The file should look like this:
+
+```json
+{
+  "extends": [
+    "@tobiasalthoff/eslint-config-epbs",
   ],
 }
 ```
