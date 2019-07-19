@@ -1,7 +1,7 @@
 // https://eslint.org/docs/rules/
 
 module.exports = {
-  'consistent-return': 'error',
+  'consistent-return': 'off',
   'func-names': ['error', 'as-needed'],
   'no-alert': 'off',
   'no-await-in-loop': 'warn',
@@ -43,4 +43,8 @@ module.exports = {
       avoidEscape: true,
     },
   ],
+  'no-underscore-dangle': 'off',
+  'class-methods-use-this': 'off',
+  'no-plusplus': 'off',
+  'no-useless-constructor': 'off',
 };
