@@ -22,7 +22,7 @@
     "javascript",
     "lint"
   ],
-  "author": "Tobias Althoff <dev@tobiasalthoff.de>",
+  "author": "Tobias Althoff (https://tobiasalthoff.de)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tobiasalthoff/eslint-config-epbs/issues"
