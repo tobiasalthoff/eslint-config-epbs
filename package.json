@@ -1,6 +1,6 @@
 {
   "name": "@tobiasalthoff/eslint-config-epbs",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Eslint and Prettier Setup",
   "main": "index.js",
   "scripts": {
