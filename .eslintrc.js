@@ -12,20 +12,18 @@ module.exports = {
     "prettier/react"
   ],
   "plugins": [
-    "prettier",
-    "react-hooks"
+    "react-hooks",
+    "prettier"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
-    "ecmaVersion": 2019,
-    "ecmaFeatures": {
-      "jsx": true,
-    }
+    "ecmaVersion": 2020
   },
   "env": {
     "browser": true,
+    "commonjs": true,
+    "es2020": true,
     "node": true,
-    "es6": true,
     "worker": true,
     "jest": true,
     "mongo": true,
