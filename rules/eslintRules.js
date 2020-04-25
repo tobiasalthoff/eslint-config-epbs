@@ -24,7 +24,7 @@ module.exports = {
   'no-unused-vars': [
     'error',
     {
-      argsIgnorePattern: 'res|next|^err|dispatch',
+      argsIgnorePattern: 'res|next|^err|dispatch|action|state',
       ignoreRestSiblings: true,
     },
   ],
