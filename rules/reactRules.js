@@ -11,4 +11,5 @@ module.exports = {
   'react/no-array-index-key': 'off',
   'react/prefer-stateless-function': 'off',
   'react/require-default-props': 'off',
+  'react/jsx-props-no-spreading': 'off'
 };
