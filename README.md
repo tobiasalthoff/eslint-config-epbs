@@ -23,23 +23,3 @@ npx install-peerdeps --dev @tobiasalthoff/eslint-config-epbs
   ],
 }
 ```
-
-### Global
-
-1. Install `@tobiasalthoff/eslint-config-epbs` globally:
-
-```
-npx install-peerdeps --global @tobiasalthoff/eslint-config-epbs
-```
-
-2. Create an `.eslintrc` file in your home directory. On Mac this will be `~/.eslintrc` and on Windows this will be `C:\Users\{username}\.eslintrc`
-
-3. The file should look like this:
-
-```json
-{
-  "extends": [
-    "@tobiasalthoff/eslint-config-epbs",
-  ],
-}
-```
